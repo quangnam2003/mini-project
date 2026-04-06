@@ -1,0 +1,7 @@
+services:
+  mini-project-be:
+    build: .
+    ports:
+      - "3002:3002"
+    env_file:
+      - .env
